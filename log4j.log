@@ -1,0 +1,48 @@
+2018-08-14 11:12:32,117 INFO  - HHH000412: Hibernate Core {5.3.4.Final}
+2018-08-14 11:12:32,123 INFO  - HHH000206: hibernate.properties not found
+2018-08-14 11:12:33,017 INFO  - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-08-14 11:12:33,719 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-08-14 11:12:33,748 INFO  - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernate_annotations_database]
+2018-08-14 11:12:33,754 INFO  - HHH10001001: Connection properties: {user=root, password=****}
+2018-08-14 11:12:33,755 INFO  - HHH10001003: Autocommit mode: false
+2018-08-14 11:12:33,765 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-08-14 11:12:34,349 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-08-14 11:12:35,989 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5aa360ea] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-08-14 11:12:36,471 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2018-08-14 11:12:36,993 INFO  - Method findAll is called in TrainerDao
+2018-08-14 11:12:37,059 INFO  - List of Trainers: [Trainer(id=1, name=Andrei Reut, language=Java, experience=6), Trainer(id=2, name=Ivan Ivanov, language=C++, experience=4), Trainer(id=3, name=Petr Petrov, language=C#, experience=5)]
+2018-08-14 11:12:37,118 INFO  - Method find is called in TrainerDao
+2018-08-14 11:12:37,137 INFO  - Trainer(id=4, name=Andrei Reut, language=Java, experience=6) has been found successfully
+2018-08-14 11:12:37,183 INFO  - Method save is called in TrainerDao
+2018-08-14 11:12:37,214 INFO  - Trainer(id=10, name=Nikolai Nikolaev, language=C, experience=12) has been saved successfully!
+2018-08-14 11:12:37,250 INFO  - Method delete is called in TrainerDao
+2018-08-14 11:12:37,341 INFO  - Trainer(id=12, name=Ivan Ivanov, language=C++, experience=4) has been deleted successfully!
+2018-08-14 11:12:37,986 INFO  - Method update is called in TrainerDao for Trainer(id=15, name=Ivan Ivanov, language=Java, experience=4)
+2018-08-14 11:12:38,591 INFO  - Trainer(id=15, name=Ivan Ivanov, language=Java, experience=4) has been updated successfully!
+2018-08-14 11:12:39,048 INFO  - Method findByLanguage is called in TrainerDao
+2018-08-14 11:12:39,062 INFO  - List of Trainers: [Trainer(id=17, name=Andrei Reut, language=Java, experience=6)]
+2018-08-14 11:12:39,063 INFO  - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hibernate_annotations_database]
+2018-08-14 11:12:53,443 INFO  - HHH000412: Hibernate Core {5.3.4.Final}
+2018-08-14 11:12:53,447 INFO  - HHH000206: hibernate.properties not found
+2018-08-14 11:12:54,188 INFO  - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-08-14 11:12:55,711 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-08-14 11:12:55,744 INFO  - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hibernate_annotations_database]
+2018-08-14 11:12:55,745 INFO  - HHH10001001: Connection properties: {user=root, password=****}
+2018-08-14 11:12:55,745 INFO  - HHH10001003: Autocommit mode: false
+2018-08-14 11:12:55,755 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-08-14 11:12:56,334 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-08-14 11:12:58,072 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5aa360ea] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2018-08-14 11:12:58,390 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2018-08-14 11:12:59,012 INFO  - Method save is called in TraineeDao
+2018-08-14 11:12:59,036 INFO  - Trainee(id=22, name=Alexandr Alexandrov, trainer=Trainer(id=21, name=Ivan Ivanov, language=C++, experience=4)) has been saved successfully!
+2018-08-14 11:12:59,112 INFO  - Method find is called in TraineeDao
+2018-08-14 11:12:59,118 INFO  - Trainee(id=23, name=Olga Borzdyko, trainer=Trainer(id=23, name=Andrei Reut, language=Java, experience=6)) has been found successfully!
+2018-08-14 11:12:59,164 INFO  - Method update is called in TraineeDao for Trainee(id=28, name=Sergei Sergeev, trainer=Trainer(id=27, name=Ivan Ivanov, language=C++, experience=4))
+2018-08-14 11:12:59,184 INFO  - Trainee(id=28, name=Sergei Sergeev, trainer=Trainer(id=27, name=Ivan Ivanov, language=C++, experience=4))' has been updated successfully!
+2018-08-14 11:12:59,225 INFO  - Method delete is called in TraineeDao
+2018-08-14 11:12:59,250 INFO  - Trainee(id=31, name=Sergei Sergeev, trainer=Trainer(id=29, name=Andrei Reut, language=Java, experience=6))' has been deleted successfully!
+2018-08-14 11:12:59,318 INFO  - Method findByTrainerName is called in TraineeDao
+2018-08-14 11:12:59,344 INFO  - List of Trainees: [Trainee(id=32, name=Olga Borzdyko, trainer=Trainer(id=32, name=Andrei Reut, language=Java, experience=6)), Trainee(id=33, name=Denis Byhovsky, trainer=Trainer(id=32, name=Andrei Reut, language=Java, experience=6)), Trainee(id=34, name=Sergei Sergeev, trainer=Trainer(id=32, name=Andrei Reut, language=Java, experience=6))]
+2018-08-14 11:12:59,368 INFO  - Method findAll is called in TraineeDao
+2018-08-14 11:12:59,427 INFO  - List of Trainees: [Trainee(id=35, name=Olga Borzdyko, trainer=Trainer(id=35, name=Andrei Reut, language=Java, experience=6)), Trainee(id=36, name=Denis Byhovsky, trainer=Trainer(id=35, name=Andrei Reut, language=Java, experience=6)), Trainee(id=37, name=Sergei Sergeev, trainer=Trainer(id=35, name=Andrei Reut, language=Java, experience=6))]
+2018-08-14 11:12:59,428 INFO  - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hibernate_annotations_database]
